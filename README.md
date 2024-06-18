@@ -1,4 +1,4 @@
-# MDI-Benchmark: Multi-Dimensional Insights:A Comprehensive Benchmark for Evaluating Large Multimodal Models Based on Age Stratification
+# MDI-Benchmark: A Comprehensive Benchmark for Evaluating Large Multimodal Models Based on Age Stratification
 
 ## Outlines
 
