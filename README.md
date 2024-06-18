@@ -1,5 +1,4 @@
-# We-Math: Does Your Large Multimodal Model Achieve Human-like Mathematical Reasoning?
-
+# MDI-Benchmark
 
 ## Outlines
 
@@ -8,7 +7,7 @@
 ## 💥 News 💥
 
 
-## 👀 About We-Math
+## 👀 About MDI-Benchmark
 
 
 
@@ -22,7 +21,7 @@ Some notations in the table:
   
 - **Types:** 
 
-## 🏆 Leaderboard on We-Math 🏆
+## Leaderboard
 
 ### Overall
 
@@ -30,7 +29,7 @@ Some notations in the table:
 ### Detailed scores
 
 
-## 📊 We-Math Dataset
+## 📊 MDI-Benchmark Dataset
 
 ### Statistics
 
@@ -45,13 +44,13 @@ Some notations in the table:
 </details>
 
 
-## 📝 Evaluation on We-Math
+## 📝 Evaluation on MDI-Benchmark
 
 ### Option
 
 ### Install Dependencies
 
-### Evaluate a new model on We-Math:
+### Evaluate a new model on MDI-Benchmark:
 
 #### Step 1. Create your input prompt
 
@@ -69,7 +68,7 @@ Our dataset are distributed under the [CC BY-NC 4.0](https://creativecommons.org
 
 ## :white_check_mark: Cite
 
-If you find **We-Math** useful for your your research and applications, please kindly cite using this BibTeX:
+If you find **MDI-Benchmark** useful for your your research and applications, please kindly cite using this BibTeX:
 
 ```latex
 TODO
