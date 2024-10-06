@@ -28,28 +28,22 @@
 To align with the actual needs of humans for Large Multimodal Models, we propose a multi-modal benchmark for providing a thorough assessment of the capacities of LMMs in practical, real-world scenarios.
 
 <p align="center">
-
-<img src="./assets/fig1.png" alt="Overview of MDI-Benchmark" style="width: 95%;"> <br>
-The overview of the <b>MDI-Benchmark</b> six real-world multimodal scenarios.
-
+    <img src="./assets/fig1.png" alt="Overview of MDI-Benchmark" style="width: 95%;"> <br>
+    The overview of the <b>MDI-Benchmark</b> six real-world multimodal scenarios.
 </p>
 
 The MDI-Benchmark includes over 500 real-world images and 1.2k human-posed questions, spanning six real-world multimodal scenarios. Each scenario is divided into 3 sub-domains with 2 levels of complexity. Additionally, we incorporate age factors into the evaluation to guide LMMs in personalizing their responses for different demographic groups.
 
 <p align="center">
-
-<img src="./assets/fig2.png" alt="MDI-Benchmark question" style="width: 95%;"> <br>
-The MDI-Benchmark includes real needs of different age groups in six major real-world scenarios.
-
+    <img src="./assets/fig2.png" alt="MDI-Benchmark question" style="width: 95%;"> <br>
+    The MDI-Benchmark includes real needs of different age groups in six major real-world scenarios.
 </p>
 
 With the MDI-Benchmark, we conduct a comprehensive evaluation of several mainstream LMMs. Specifically, GPT-4o achieved the best results across all indicators, but there is still significant room for improvement in addressing the needs of different age groups. Further analysis across dimensions such as Scenario, Complexity and Age provides valuable insights for developing reliable, personalized human assistants.
 
 <p align="center">
-
-<img src="./assets/leaderboard.png" alt="leaderboard" style="width: 95%;"> <br>
-Performance of the model at different difficulty levels and the overall performance results of the model under the score metric.
-
+    <img src="./assets/leaderboard.png" alt="leaderboard" style="width: 95%;"> <br>
+    Performance of the model at different difficulty levels and the overall performance results of the model under the score metric.
 </p>
 
 We hope our research will advance the application of multimodal large models in real-world scenarios and pave the way for the development of multi-dimensional personalization.
