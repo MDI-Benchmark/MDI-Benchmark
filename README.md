@@ -1,11 +1,11 @@
-# MDI-Benchmark: A Comprehensive Benchmark for Evaluating Large Multimodal Models Based on Age Stratification
+# Multi-Dimensional Insights:  Benchmarking Real-World Personalization in Large Multimodal Models
 
-![Dataset](https://img.shields.io/badge/Dataset-We--Math-green)
+![Dataset](https://img.shields.io/badge/Dataset-MDI--Benchmark-green)
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red)
-![Mathematical Reasoning](https://img.shields.io/badge/Task-Mathematical_Reasoning-red) 
+![Mathematical Reasoning](https://img.shields.io/badge/Task-Real_world_Reasoning-red) 
 
 <p align="center">
-    <img src="./assets/logo-another.png" width="35%"> <br>
+    <img src="./assets/icon.png" width="35%"> <br>
 </p>
 
 ## Outlines
@@ -19,9 +19,9 @@
 
 ## 💥 News 💥
   **[2023.7.2]** Our paper is now accessible at .
-  
+
   **[2024.7.2]** Our dataset is now accessible at [Huggingface Datasets]().
-  
+
   **[2024.7.2]** Our project homepage can be accessed at https://MDI-Benchmark.github.io/.
 
 ## 👀 About MDI-Benchmark
