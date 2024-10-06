@@ -30,7 +30,7 @@ To align with the actual needs of humans for Large Multimodal Models, we propose
 <p align="center">
 
 ```
-<img src="./assets/fig1.png" alt="Overview of MDI-Benchmark" style="width: 85%;"> <br>
+<img src="./assets/fig1.png" width="85%"> <br>
 The overview of the <b>MDI-Benchmark</b> six real-world multimodal scenarios.
 ```
 
