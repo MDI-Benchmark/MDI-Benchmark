@@ -29,7 +29,7 @@ To align with the actual needs of humans for Large Multimodal Models, we propose
 
 <p align="center">
 
-<img src="./assets/fig1.png" alt="Overview of MDI-Benchmark" style="width: 85%;"> <br>
+<img src="./assets/fig1.png" alt="Overview of MDI-Benchmark" style="width: 95%;"> <br>
 The overview of the <b>MDI-Benchmark</b> six real-world multimodal scenarios.
 
 </p>
@@ -38,7 +38,7 @@ The MDI-Benchmark includes over 500 real-world images and 1.2k human-posed quest
 
 <p align="center">
 
-<img src="./assets/fig2.png" alt="MDI-Benchmark question" style="width: 65%;"> <br>
+<img src="./assets/fig2.png" alt="MDI-Benchmark question" style="width: 95%;"> <br>
 The MDI-Benchmark includes real needs of different age groups in six major real-world scenarios.
 
 </p>
