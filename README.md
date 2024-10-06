@@ -18,39 +18,47 @@
 - [🤝 Contributors](https://github.com/MDI-Benchmark/MDI-Benchmark/blob/main/README.md#-contributors)
 
 ## 💥 News 💥
-  **[2023.7.2]** Our paper is now accessible at .
+  **[2023.10.8]** Our paper is now accessible at .
 
   **[2024.7.2]** Our dataset is now accessible at [Huggingface Datasets]().
 
-  **[2024.7.2]** Our project homepage can be accessed at https://MDI-Benchmark.github.io/.
+  **[2024.10.8]** Our project homepage can be accessed at https://MDI-Benchmark.github.io/.
 
 ## 👀 About MDI-Benchmark
-Inspired by human-like mathematical reasoning, we introduce MDI-Benchmark, the first benchmark specifically designed to <b>explore the problem-solving principles beyond the end-to-end performance.</b> We meticulously collect and categorize 6.5K visual math problems, spanning 67 hierarchical knowledge concepts and 5 layers of knowledge granularity.
+To align with the actual needs of humans for Large Multimodal Models, we propose a multi-modal benchmark for providing a thorough assessment of the capacities of LMMs in practical, real-world scenarios.
 
 <p align="center">
-    <img src="assets/fig_lun.png" alt="Overview diagram and the statistics of MDI-Benchmark" style="width: 85%;" /> <br>
-    Overview diagram and the statistics of <b>MDI-Benchmark</b>.
+
+```
+<img src="assets/fig1.png" alt="Overview of MDI-Benchmark" style="width: 85%;" /> <br>
+The overview of the <b>MDI-Benchmark</b> six real-world multimodal scenarios.
+```
+
 </p>
 
-We firstly <b>decompose composite problems into sub-problems</b> according to the required knowledge concepts and introduce a novel four-dimensional metric, namely <b>Insufficient Knowledge (IK)</b>, <b>Inadequate Generalization (IG)</b>, <b>Complete Mastery (CM)</b>, and <b>Rote Memorization (RM)</b> to hierarchically assess inherent issues in LMMs’ reasoning process.
+The MDI-Benchmark includes over 500 real-world images and 1.2k human-posed questions, spanning six real-world multimodal scenarios. Each scenario is divided into 3 sub-domains with 2 levels of complexity. Additionally, we incorporate age factors into the evaluation to guide LMMs in personalizing their responses for different demographic groups.
 
 <p align="center">
-    <img src="assets/3-example.png" alt="The pipeline of knowledge-based data decomposition (an example of a three-step problem in MDI-Benchmark)." style="width: 65%;" /> <br>
-    The pipeline of knowledge-based data decomposition (an example of a three-step problem in MDI-Benchmark).
+
+```
+<img src="assets/fig2.png" alt="MDI-Benchmark question" style="width: 65%;" /> <br>
+The MDI-Benchmark includes real needs of different age groups in six major real-world scenarios.
+```
+
 </p>
+
+With the MDI-Benchmark, we conduct a comprehensive evaluation of several mainstream LMMs. Specifically, GPT-4o achieved the best results across all indicators, but there is still significant room for improvement in addressing the needs of different age groups. Further analysis across dimensions such as Scenario, Complexity and Age provides valuable insights for developing reliable, personalized human assistants.
 
 <p align="center">
-    <img src="assets/metric_2.png" alt="The pipeline of knowledge-based data decomposition (left) and an example of the four-dimensional metrics for evaluating a two-step problem (right), using both loose and strict settings." style="width: 95%;" /> <br>
-    An example of the four-dimensional metrics for evaluating a two-step problem, using both loose and strict settings.
+
+```
+<img src="assets/leaderboard.png" alt="leaderboard" style="width: 95%;" /> <br>
+Performance of the model at different difficulty levels and the overall performance results of the model under the score metric.
+```
+
 </p>
 
-
-With MDI-Benchmark, we conduct a thorough evaluation of existing LMMs in visual mathematical reasoning and reveal a negative correlation between solving step and problem-specific performance. We confirm the IK issue of LMMs can be effectively improved via knowledge augmentation strategy. More notably, <b>the primary challenge of GPT-4o has significantly transitioned from IK to IG, establishing it as the first LMM advancing towards the knowledge generalization stage.</b> In contrast, other LMMs exhibit a marked inclination towards Rote Memorization they correctly solve composite problems involving multiple knowledge concepts, yet fail in answering sub-problems. We anticipate that MDI-Benchmark will open new pathways for advancements in visual mathematical reasoning for LMMs.
-
-<p align="center">
-    <img src="assets/fig1_result.png" alt="pipeline of decomposition" style="width: 95%;" /> <br>
-    Overview of LMMs' performances on MDI-Benchmark. Figures from left to right illustrates the (1) accuracy of different LMMs on various problem-solving steps, (2) the performance in different visual mathematics categories and (3) the result in knowledge based reasoning evaluation.
-</p>
+We hope our research will advance the application of multimodal large models in real-world scenarios and pave the way for the development of multi-dimensional personalization.
 
 
 
@@ -145,4 +153,4 @@ If you find **MDI-Benchmark** useful for your your research and applications, pl
 ## 🤝 Contributors
 Here are the key contributors to this project:
 
-
+Yifan Zhang, Shanglin Lei, Runqi Qiao, Zhuoma GongQue, Xiaoshuai Song, Guanting Dong, Qiuna Tan, Zhe Wei, Peiqing Yang, Ye Tian, Xiaofei Wang, Honggang Zhang
