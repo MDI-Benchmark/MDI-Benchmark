@@ -25,14 +25,14 @@
   **[2024.10.8]** Our project homepage can be accessed at https://MDI-Benchmark.github.io/.
 
 ## 👀 About MDI-Benchmark
-To align with the actual needs of humans for Large Multimodal Models, we propose a multi-modal benchmark for providing a thorough assessment of the capacities of LMMs in practical, real-world scenarios.
+To align with the <b>actual needs of humans</b> for Large Multimodal Models, we propose a multi-modal benchmark for providing a thorough assessment of the capacities of LMMs in practical, real-world scenarios.
 
 <p align="center">
     <img src="./assets/fig1.png" alt="Overview of MDI-Benchmark" style="width: 95%;"> <br>
     The overview of the <b>MDI-Benchmark</b> six real-world multimodal scenarios.
 </p>
 
-The MDI-Benchmark includes over 500 real-world images and 1.2k human-posed questions, spanning six real-world multimodal scenarios. Each scenario is divided into 3 sub-domains with 2 levels of complexity. Additionally, we incorporate age factors into the evaluation to guide LMMs in personalizing their responses for different demographic groups.
+The MDI-Benchmark includes over <b>500 real-world images</b> and <b>1.2k human-posed questions</b>, spanning six real-world multimodal scenarios. Each scenario is divided into 3 sub-domains with 2 levels of complexity. Additionally, we incorporate age factors into the evaluation to guide LMMs in personalizing their responses for different demographic groups.
 
 <p align="center">
     <img src="./assets/fig2.png" alt="MDI-Benchmark question" style="width: 95%;"> <br>
@@ -46,7 +46,7 @@ With the MDI-Benchmark, we conduct a comprehensive evaluation of several mainstr
     Performance of the model at different difficulty levels and the overall performance results of the model under the score metric.
 </p>
 
-We hope our research will advance the application of multimodal large models in real-world scenarios and pave the way for the development of multi-dimensional personalization.
+We hope our research will advance the application of multimodal large models in real-world scenarios and pave the way for the development of <b>multi-dimensional personalization</b>.
 
 
 
