@@ -99,19 +99,18 @@ python accuracy.py \
 ### Metric for Reasoning Evaluation
 To better assess the capabilities demonstrated by the model, we defined the scoring metric:
 
-$
-
-\text{Score}_{\text{final}} = \alpha \cdot \text{Score}_{\text{L1}} + (1 - \alpha) \cdot \text{Score}_{\text{L2}}
-$
+$$
+{\text{Score}_{\text{final}} = \alpha \cdot \text{Score}_{\text{L1}} + (1 - \alpha) \cdot \text{Score}_{\text{L2}}}
+$$
 
 where 
-$
-\text{Score}_{\text{L1}}, \text{Score}_{\text{L2}}
-$
+$$
+{\text{Score}_{\text{L1}}, \text{Score}_{\text{L2}}}
+$$
 denotes the average performance of LMMs in various fields at the first and second tiers, respectively and we set the default value of 
-$
+$$
 \alpha = 0.5
-$
+$$
 
 ### Exmaples
 <details>
