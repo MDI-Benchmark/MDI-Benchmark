@@ -20,8 +20,6 @@
 ## 💥 News 💥
   **[2023.10.8]** Our paper is now accessible at .
 
-  **[2024.7.2]** Our dataset is now accessible at [Huggingface Datasets]().
-
   **[2024.10.8]** Our project homepage can be accessed at https://MDI-Benchmark.github.io/.
 
 ## 👀 About MDI-Benchmark
@@ -99,15 +97,24 @@ python accuracy.py \
 ## 📊 MDI-Benchmark Dataset
 
 ### Metric for Reasoning Evaluation
-Based on the decomposed multi-step problems, we further reveal the inherent issues of LMMs in problem-solving process. We feed both the M one-step sub-problems and the original problem into LMMs, and classifying the responses into four categories
-1. Insufficient Knowledge (IK): Part of one-step problems contain errors, and the multi-step problem is wrong. It is reasonable because model's insufficient grasp of single knowledge concept may lead to errors in multi-step problem.
-2. Inadequate Generalization (IG): One-Step problems are all correct, but the multi-step problem is incorrect. This is also considered reasonable. While LMMs are capable of understanding individual knowledge concepts, they may struggle to generalize that knowledge to solve composite problems.
-3. Complete Mastery (CM): One-Step problems are all correct, and multi-step problem is also answered correctly. This result demonstrates that the model's results are both reliable and accurate.
-4. Rote Memorization (RM): One-Step problems contain errors, but the multi-step problem is answered correctly, which contradicts human logical thinking. If a model can solve composite multi-step problems but fails to answer the one-step problems needed in the process, it raises doubts about the model's reliability.
+To better assess the capabilities demonstrated by the model, we defined the scoring metric:
+
+$$
+{\text{Score}_{\text{final}} = \alpha \cdot \text{Score}_{\text{L1}} + (1 - \alpha) \cdot \text{Score}_{\text{L2}}}
+$$
+
+where 
+$$
+{\text{Score}_{\text{L1}}, \text{Score}_{\text{L2}}}
+$$
+denotes the average performance of LMMs in various fields at the first and second tiers, respectively and we set the default value of 
+$$
+\alpha = 0.5
+$$
 
 ### Exmaples
 <details>
-<summary>🔍Examples of samples.</summary>
+<summary>🔍Examples of question samples.</summary>
 <p align="center">
     <img src="./assets/trans.png" width="90%"> <br>
     Examples of Transport Scenario.
@@ -121,6 +128,7 @@ Based on the decomposed multi-step problems, we further reveal the inherent issu
 
 <p align="center">
 	<img src="./assets/social_age.png" width="90%"> <br>
+	Example of Social Service Scenario Age Questions.
 </p>
 
 </details>
