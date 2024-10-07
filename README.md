@@ -72,19 +72,16 @@ The models generate responses based on the given questions and images. Examples 
 
 ```
 ### Score Calculation
-Due to the multiple-choice question format of our dataset and the specific answer generation prompt, we use string matching to directly extract answers, which eliminates the high cost of using additional models for further answer extraction.  The extracted answer is normalized to an option letter and calculate scores on our proposed four-dimensional metrics in [four_dimensional_metrics.py](https://github.com/MDI-Benchmark/MDI-Benchmark/blob/main/evaluation/four_dimensional_metrics.py).
-
-这个代码要能反应出不同的评分
-按照表格中的来
+Due to the multiple-choice question format of our dataset and the specific answer generation prompt, we use string matching to directly extract answers, which eliminates the high cost of using additional models for further answer extraction.  The extracted answer is normalized to an option letter and calculate scores on our proposed four-dimensional metrics in [accuracy.py](https://github.com/MDI-Benchmark/MDI-Benchmark/blob/main/evaluation/accuracy.py).
 
 
 ```sh
 cd evaluation
 
-python four_dimensional_metrics_refine.py \
+python accuracy.py \
 --model_name GPT-4o \
 --output_json ../output/GPT-4o.json  \
---main_results_csv_path ../result/four_dimensional_metrics.csv
+--main_results_csv_path ../result/res.csv
 ```
 
 ## 📊 MDI-Benchmark Dataset
