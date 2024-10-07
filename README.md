@@ -53,7 +53,7 @@ We hope our research will advance the application of multimodal large models in 
 
 ## 🏆 Leaderboard on MDI-Benchmark 🏆
 🚨🚨 The [Leaderboard](https://MDI-Benchmark.github.io/#leaderboard) is continuously being updated. We welcome the results of your model!
-To submit your results to the leaderboard on the **testmini** subset, please send to [this email](mailto:qrq@bupt.edu.cn) with your result JSON file and score CSV file.
+To submit your results to the leaderboard on the **testmini** subset, please send to [this email](mailto:zhangyifan_ai@bupt.edu.cn) with your result JSON file and score CSV file.
 
 ## 📝 Evaluation Piplines on MDI-Benchmark
 
@@ -61,18 +61,17 @@ To submit your results to the leaderboard on the **testmini** subset, please sen
 The models generate responses based on the given questions and images. Examples for generating responses from some LMMs are provided in the [evaluation](./evaluation). Our prompt specifies the format of answer generation to facilitate subsequent extraction of the answer using string matching. Please refer to the following template to prepare your result JSON files for subsequent evaluation.
 ```json
 {
-    "ID": "3steps_165",
-    "split": "testmini",
-    "knowledge concept": "Area of Circles",
-    "question": "As shown in the figure, there is a circular flower bed. Mary walked from the northernmost point of the flower bed along the edge to the easternmost point, taking a total of 80 steps. It is known that Mary's average step length is 0.628 cm, what is the area of the flower bed (  ) m²?(π = 3.14)",
-    "option": "A. 200.96;B. 3215.36;C. 6280;D. 32; E. No correct answer",
-    "answer": "B",
-    "image_path": "3steps/image/165-3.png",
-    "key": "3steps_3",
-    "question number": 1575,
-    "knowledge concept description": "Area of ...",
-    "response": "<Thought process>: ... <Answer>: ..."
+        "question number": 1,
+        "split": "testmini",
+        "key": "level1-architecture-old",
+        "image_path": "architecture/houseplaning_0",
+        "question": "Looking at this house plan, how many bedrooms does this house have?",
+        "option": "A.1; B.2; C.3; D.4",
+        "answer": "C",
+        "response": "<Thought process>: ... <Answer>: ..."
 }
+
+
 ```
 ### Score Calculation
 Due to the multiple-choice question format of our dataset and the specific answer generation prompt, we use string matching to directly extract answers, which eliminates the high cost of using additional models for further answer extraction.  The extracted answer is normalized to an option letter and calculate scores on our proposed four-dimensional metrics in [four_dimensional_metrics.py](https://github.com/MDI-Benchmark/MDI-Benchmark/blob/main/evaluation/four_dimensional_metrics.py).
@@ -110,17 +109,22 @@ Based on the decomposed multi-step problems, we further reveal the inherent issu
 <details>
 <summary>🔍Examples of samples.</summary>
 <p align="center">
-    <img src="assets/example-2.png" width="90%"> <br>
+    <img src="./assets/trans.png" width="90%"> <br>
+    Examples of Transport Scenario.
 </p>
+
+
+<p align="center">
+	<img src="./assets/edu_level.png" width="90%"> <br>
+	Examples of Education Scenario Level Questions.
+</p>
+
+<p align="center">
+	<img src="./assets/social_age.png" width="90%"> <br>
+</p>
+
 </details>
 
-### Knowledge cards
-<details>
-<summary>🔍Examples of Knowledge cards.</summary>
-<p align="center">
-    <img src="assets/example-card.png" width="90%"> <br>
-</p>
-</details>
 
 
 ## 📜 License
