@@ -22,6 +22,8 @@
 
   **[2024.12.16]** Our project homepage can be accessed at https://MDI-Benchmark.github.io/.
 
+  **[2024.12.16]** Our dataset will be released as open source soon.
+
 ## 👀 About MDI-Benchmark
 To align with the <b>actual needs of humans</b> for Large Multimodal Models, we propose a multi-modal benchmark for providing a thorough assessment of the capacities of LMMs in practical, real-world scenarios.
 
