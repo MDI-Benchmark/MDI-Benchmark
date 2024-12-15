@@ -18,9 +18,9 @@
 - [🤝 Contributors](https://github.com/MDI-Benchmark/MDI-Benchmark/blob/main/README.md#-contributors)
 
 ## 💥 News 💥
-  **[2023.10.8]** Our paper is now accessible at .
+  **[2023.12.16]** Our paper is now accessible at .
 
-  **[2024.10.8]** Our project homepage can be accessed at https://MDI-Benchmark.github.io/.
+  **[2024.12.16]** Our project homepage can be accessed at https://MDI-Benchmark.github.io/.
 
 ## 👀 About MDI-Benchmark
 To align with the <b>actual needs of humans</b> for Large Multimodal Models, we propose a multi-modal benchmark for providing a thorough assessment of the capacities of LMMs in practical, real-world scenarios.
@@ -53,7 +53,7 @@ We hope our research will advance the application of multimodal large models in 
 🚨🚨 The [Leaderboard](https://MDI-Benchmark.github.io/#leaderboard) is continuously being updated. We welcome the results of your model!
 To submit your results to the leaderboard on the **testmini** subset, please send to [this email](mailto:zhangyifan_ai@bupt.edu.cn) with your result JSON file and score CSV file.
 
-## 📝 Evaluation Piplines on MDI-Benchmark
+<!-- ## 📝 Evaluation Piplines on MDI-Benchmark
 
 ### Response Generation 
 The models generate responses based on the given questions and images. Examples for generating responses from some LMMs are provided in the [evaluation](./evaluation). Our prompt specifies the format of answer generation to facilitate subsequent extraction of the answer using string matching. Please refer to the following template to prepare your result JSON files for subsequent evaluation.
@@ -82,7 +82,7 @@ python accuracy.py \
 --model_name GPT-4o \
 --output_json ../output/GPT-4o.json  \
 --main_results_csv_path ../result/res.csv
-```
+``` -->
 
 ## 📊 MDI-Benchmark Dataset
 
