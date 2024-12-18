@@ -12,17 +12,17 @@
 - [💥 News 💥](README.md#-news-)
 - [👀 About MDI-Benchmark]()
 - [🏆 Leaderboard on MDI-Benchmark 🏆](https://github.com/MDI-Benchmark/MDI-Benchmark/blob/main/README.md#-leaderboard-on-MDI-Benchmark-)
-- [📝 Evaluation Piplines on MDI-Benchmark](https://github.com/MDI-Benchmark/MDI-Benchmark/blob/main/README.md#-evaluation-piplines-on-MDI-Benchmark)
+<!-- - [📝 Evaluation Piplines on MDI-Benchmark](https://github.com/MDI-Benchmark/MDI-Benchmark/blob/main/README.md#-evaluation-piplines-on-MDI-Benchmark) -->
 - [📊 MDI-Benchmark Dataset](https://github.com/MDI-Benchmark/MDI-Benchmark/blob/main/README.md#-MDI-Benchmark-dataset)
 - [📜 License](https://github.com/MDI-Benchmark/MDI-Benchmark/blob/main/README.md#-license)
 - [🤝 Contributors](https://github.com/MDI-Benchmark/MDI-Benchmark/blob/main/README.md#-contributors)
 
 ## 💥 News 💥
-  **[2023.12.16]** Our paper is now accessible at .
+  **[2023.12.18]** Our paper is now accessible at https://arxiv.org/abs/2412.12606.
 
-  **[2024.12.16]** Our project homepage can be accessed at https://MDI-Benchmark.github.io/.
+  **[2024.12.18]** Our project homepage can be accessed at https://MDI-Benchmark.github.io/.
 
-  **[2024.12.16]** Our dataset will be released as open source soon.
+  **[2024.12.18]** Our dataset will be released as open source soon.
 
 ## 👀 About MDI-Benchmark
 To align with the <b>actual needs of humans</b> for Large Multimodal Models, we propose a multi-modal benchmark for providing a thorough assessment of the capacities of LMMs in practical, real-world scenarios.
