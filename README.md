@@ -123,7 +123,14 @@ Our dataset are distributed under the [CC BY-NC 4.0](https://creativecommons.org
 If you find **MDI-Benchmark** useful for your your research and applications, please kindly cite using this BibTeX:
 
 ```bibtex
-@misc{ 
+@misc{zhang2024multid,
+      title={Multi-Dimensional Insights: Benchmarking Real-World Personalization in Large Multimodal Models}, 
+      author={YiFan Zhang and Shanglin Lei and Runqi Qiao and Zhuoma GongQue and Xiaoshuai Song and Guanting Dong and Qiuna Tan and Zhe Wei and Peiqing Yang and Ye Tian and Yadong Xue and Xiaofei Wang and Honggang Zhang},
+      year={2024},
+      eprint={2412.12606},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2412.12606}, 
 }
 ```
 
